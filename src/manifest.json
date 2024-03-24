@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Remove Related from Perplexity",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Automatically removes Related from perplexity.ai",
     "icons": {
       "48": "icon.png"
