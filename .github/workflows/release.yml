@@ -14,7 +14,7 @@ jobs:
 
       - name: Zip the src directory
         run: |
-          zip -r "rm-related-${GITHUB_REF_NAME}.zip" src/
+          zip -r -j "rm-related-${GITHUB_REF_NAME}.zip" src/*
       
       - name: Create Release
         id: create_release
